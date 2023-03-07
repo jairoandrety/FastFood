@@ -1,0 +1,56 @@
+{
+    "products": [
+      {
+        "name": "Hamburguesas",
+        "enabled": true,
+        "description": "Hamburguesa de carne de res, lechuga, tomate, cebolla, queso y mayonesa",
+        "image": "Images/hamburguesa_clasica.jpg",
+        "items": [
+          {
+            "name": "clasica",
+            "image": "Image/hamburguesa_clasica.jpg"
+          }        
+        ]
+      },
+      {
+        "name": "Pizzas",
+        "enabled": false,
+        "description": "Pizza de jamon y queso",
+        "image": "Images/LogoTransparente.png",
+        "items": [
+          {
+            "firstName": "uyt",
+            "lastName": "Sharmjhfgja"
+          },
+          {
+            "firstName": "Rsraj",
+            "lastName": "Shrerweqrewqarma"
+          },
+          {
+            "firstName": "gfg",
+            "lastName": "gfsgfdg"
+          }
+        ]
+      },
+      {
+        "name": "Bebidas",
+        "enabled": true,
+        "description": "Bebidas frias y calientes",
+        "image": "Images/LogoTransparente.png",
+        "items": [
+          {
+            "firstName": "uyt",
+            "lastName": "Sharmjhfgja"
+          },
+          {
+            "firstName": "Rsraj",
+            "lastName": "Shrerweqrewqarma"
+          },
+          {
+            "firstName": "gfg",
+            "lastName": "gfsgfdg"
+          }
+        ]
+      }
+    ]
+  }
