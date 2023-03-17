@@ -173,7 +173,7 @@ body{
     align-content: center;
 }
 
-.Products .item{
+.Products .container .item{
     background: #6e1f1f;
     margin: 5px;
     border-radius: 10px;
@@ -191,7 +191,7 @@ body{
 
 @media (max-width:500px){
     .Products .item{
-        flex: 45%;
+        flex: 100%;
     }
 }
 
@@ -294,6 +294,19 @@ height: 200px;
 }
 /*#endregion*/
 
+.ContainerWhite{
+    background: #e6e2dd;
+    max-width: 1000px;
+    border-radius: 15px;
+    flex: 30%;
+    align-items: center;
+    align-content: center;
+    margin: 15px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px;
+}
+
 .container{
     max-width: 1000px;
     border-radius: 15px;
@@ -372,19 +385,22 @@ height: 200px;
     padding: 20px;
 }
 
-.FormSection > Form  > label{
+.FormSection > form{
+    margin: 20px auto;
+}
+
+.FormSection > form  > label{
     font-size: 18px;
     font-weight: 600;
     color: #222222;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
 }
 
-.FormSection > Form > input{
+.FormSection > form > input{
     width: 90%;
     border-radius: 10px;
     border: none;
-    margin: 10px;
+    margin: 5px;
     padding: 10px;
     height: 40px;
 }
