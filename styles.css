@@ -181,7 +181,7 @@ body{
 
     height: 450px;
     max-width: auto;
-    flex: 25%;
+    flex: 23%;
 }
 
 @media (max-width: 600px){
@@ -352,12 +352,14 @@ height: 200px;
     margin-right: 5%;
 }
 
-#OrderEmpty{
-    margin: 15px;
+#Empty{
+    background: #e6e2dd;
+    border-radius: 10px;
+    margin: 15px auto;
     text-align: center;
 }
 
-#OrderEmpty > h3{
+#Empty > h3{
     font-size: 18px;
     font-weight: 600;
 
@@ -365,7 +367,7 @@ height: 200px;
     color: #6e1f1f;
 }
 
-#OrderEmpty > img{
+#Empty > img{
     height: 200px;
 }
 

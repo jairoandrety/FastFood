@@ -13,7 +13,7 @@ function CreateHeader()
     logoContainer.className = "LogoHome";
 
     let img = document.createElement("img");
-    img.src = "Images/LogoTransparente.png";
+    img.src = "Images/ComboHamburguesa.png";
     logoContainer.appendChild(img);
 
     let title = document.createElement("h1");

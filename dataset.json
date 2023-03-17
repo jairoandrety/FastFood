@@ -4,7 +4,7 @@
         "name": "Hamburguesa",
         "enabled": true,
         "description": "Hamburguesa de carne de res, lechuga, tomate, cebolla, queso y mayonesa",
-        "image": "Images/hamburguesa/clasica.png",
+        "image": "Images/hamburguesa.png",
         "items": [
           {
             "name": "Clásica",
@@ -17,59 +17,59 @@
             "name": "Doble Carne",
             "enabled": true,
             "description": "Hamburguesa de carne de res, lechuga, tomate, cebolla, queso y mayonesa",
-            "image": "Images/hamburguesa/doble_carne.jpg",
+            "image": "Images/hamburguesa/doble_carne.png",
             "price": 10000
           },
           {
             "name": "Doble Carne Negra",
             "enabled": true,
             "description": "Hamburguesa de carne de res, lechuga, tomate, cebolla, queso y mayonesa",
-            "image": "Images/hamburguesa/doble_carne_negra.jpg",
+            "image": "Images/hamburguesa/doble_carne_negra.png",
             "price": 10000
           },
           {
             "name": "Gigante",
             "enabled": true,
             "description": "Hamburguesa de carne de res, lechuga, tomate, cebolla, queso y mayonesa",
-            "image": "Images/hamburguesa/gigante.jpg",
+            "image": "Images/hamburguesa/gigante.png",
             "price": 10000
           },
           {
             "name": "Max",
             "enabled": true,
             "description": "Hamburguesa de carne de res, lechuga, tomate, cebolla, queso y mayonesa",
-            "image": "Images/hamburguesa/max.jpg",
+            "image": "Images/hamburguesa/max.png",
             "price": 10000
           },
           {
             "name": "Mexicana",
             "enabled": true,
             "description": "Hamburguesa de carne de res, lechuga, tomate, cebolla, queso y mayonesa",
-            "image": "Images/hamburguesa/mexicana.jpg",
+            "image": "Images/hamburguesa/mexicana.png",
             "price": 10000
           },
           {
             "name": "Mexicana Negra",
             "enabled": true,
             "description": "Hamburguesa de carne de res, lechuga, tomate, cebolla, queso y mayonesa",
-            "image": "Images/hamburguesa/mexicana_negra.jpg"
+            "image": "Images/hamburguesa/mexicana_negra.png"
           },
           {
             "name": "Pepinillos",
             "enabled": true,
             "description": "Hamburguesa de carne de res, lechuga, tomate, cebolla, queso y mayonesa",
-            "image": "Images/hamburguesa/pepinillos.jpg"
+            "image": "Images/hamburguesa/pepinillos.png"
           },
           {
             "name": "Pepinillos Negra",
             "enabled": true,
             "description": "Hamburguesa de carne de res, lechuga, tomate, cebolla, queso y mayonesa",
-            "image": "Images/hamburguesa/pepinillos_negra.jpg"
+            "image": "Images/hamburguesa/pepinillos_negra.png"
           }
         ]
       },
       {
-        "name": "Pizzas",
+        "name": "Pizza",
         "enabled": true,
         "description": "Pizza de jamon y queso",
         "image": "Images/LogoTransparente.png",
@@ -89,30 +89,53 @@
         ]
       },
       {
-        "name": "Bebidas",
+        "name": "Bebida",
         "enabled": true,
         "description": "Bebidas frias y calientes",
-        "image": "Images/LogoTransparente.png",
+        "image": "Images/bebidas.png",
         "items": [
           {
-            "firstName": "uyt",
-            "lastName": "Sharmjhfgja"
+            "name": "Soda de uva",
+            "enabled": true,
+            "description": "Refrescante soda de uva",
+            "image": "Images/bebida/soda-uva.png",
+            "price": 3000
           },
           {
-            "firstName": "Rsraj",
-            "lastName": "Shrerweqrewqarma"
+            "name": "Soda de limón",
+            "enabled": true,
+            "description": "Refrescante soda de limón",
+            "image": "Images/bebida/soda-limon.png",
+            "price": 2500
           },
           {
-            "firstName": "gfg",
-            "lastName": "gfsgfdg"
+            "name": "Soda de durazno",
+            "enabled": true,
+            "description": "Refrescante soda de durazno",
+            "image": "Images/bebida/soda-durazno.png",
+            "price": 2800
+          },
+          {
+            "name": "Soda de sandía",
+            "enabled": true,
+            "description": "Refrescante soda de sandía",
+            "image": "Images/bebida/soda-sandia.png",
+            "price": 3200
+          },
+          {
+            "name": "Soda de arándanos",
+            "enabled": false,
+            "description": "Refrescante soda de arándanos",
+            "image": "Images/bebida/soda-arandanos.png",
+            "price": 2900
           }
         ]
       },
       {
         "name": "Otros",
-        "enabled": true,
-        "description": "Bebidas frias y calientes",
-        "image": "Images/LogoTransparente.png",
+        "enabled": false,
+        "description": "Otros productos",
+        "image": "Images/helado.png",
         "items": [
           {
             "firstName": "uyt",

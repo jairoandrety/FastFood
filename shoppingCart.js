@@ -61,7 +61,7 @@ function ShowItems()
         localStorage.setItem('OrderSaved', JSON.stringify(newOrder));
 
         let orderSummary = document.getElementById("OrderSummary");
-        let orderEmpty = document.getElementById("OrderEmpty");
+        let orderEmpty = document.getElementById("Empty");
 
         if(newOrder.items.length > 0){      
             orderSummary.style.display = "block";

@@ -19,12 +19,22 @@ fetch("./dataset.json")
       check = data.products[section].items[i].enabled;
       if(check == true){
         id = i;
-        products.push(CreateItem(i, data.products[section].items[i].name, data.products[section].items[i].description, data.products[section].items[i].price, data.products[section].items[i].image));
+        CreateItem(i, data.products[section].items[i].name, data.products[section].items[i].description, data.products[section].items[i].price, data.products[section].items[i].image);
       }
     }
 
-    if(products.length == 0){
-      console.debug("No hay productos disponibles");
+    console.debug(products);
+
+    let orderSummary = document.getElementsByClassName("Products");
+    let orderEmpty = document.getElementById("Empty");
+
+    if(products.length > 0){
+      orderSummary[0].style.display = "block";
+      orderEmpty.style.display = "none";
+    }
+    else{
+      orderSummary[0].style.display = "none";
+      orderEmpty.style.display = "block";
     }
 
     orderLoaded = "";
@@ -68,12 +78,14 @@ function CreateItem(id, name, description, price, image)
     }
 
     item.appendChild(button);
-    let products = document.querySelector(".Products .container");
-    products.appendChild(item);
+    let productsContainer = document.querySelector(".Products .container");
+    productsContainer.appendChild(item);
+
+    products.push(item);    
 }
 
 function BuyItem(id){
-  itemSelected = newOrder.items.find(item => item.id === id);
+  itemSelected = newOrder.items.find(item => item.id === id && item.section === section);
 
   if(itemSelected != null){
     itemSelected.amount += 1;
