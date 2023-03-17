@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Carrito de compras</title>
+    <meta name="description" content="Proyecto de Interfaces">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Jairo Andres Pinzon">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Images/LogoTransparente.png">
+</head>
+<body>
+    <header>
+        <div class="HeaderPage">            
+        </div>
+    </header>
+
+    <div class="OrderList">
+       
+       <div class="List"></div>      
+
+    <div id="OrderSummary">
+        <div class="Row">
+            <div class="Column">
+                <Button id="ClearOrder">Eliminar pedido</Button>
+            </div>
+            <div class="Column">
+                <Button id="BuyOrder">Pagar Pedido</Button>
+            </div>
+            <div class="ColumnRight">
+                <p id="subtotal">subtotal$50000</p>
+                <p id="delivery">envio $50000</p>
+                <h3 id="total">total $50000</h3>
+            </div>
+        </div>
+    </div>
+
+    <div id="OrderEmpty">
+        <img src="Images/FastFood.png" alt="">
+        <h3>No tienes productos en el pedido</h3>
+    </div>
+
+        
+    </div>
+    
+    <script src="header.js"></script>
+    <script src="order.js"></script>
+    <script src="shoppingCart.js"></script>
+</body>
+</html>

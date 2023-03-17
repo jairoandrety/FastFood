@@ -1,0 +1,132 @@
+{
+  "products": [
+      {
+        "name": "Hamburguesa",
+        "enabled": true,
+        "description": "Hamburguesa de carne de res, lechuga, tomate, cebolla, queso y mayonesa",
+        "image": "Images/hamburguesa/clasica.png",
+        "items": [
+          {
+            "name": "Clásica",
+            "enabled": true,
+            "description": "Hamburguesa de carne de res, lechuga, tomate, cebolla, queso y mayonesa",
+            "image": "Images/hamburguesa/clasica.png",
+            "price": 10000
+          },
+          {
+            "name": "Doble Carne",
+            "enabled": true,
+            "description": "Hamburguesa de carne de res, lechuga, tomate, cebolla, queso y mayonesa",
+            "image": "Images/hamburguesa/doble_carne.jpg",
+            "price": 10000
+          },
+          {
+            "name": "Doble Carne Negra",
+            "enabled": true,
+            "description": "Hamburguesa de carne de res, lechuga, tomate, cebolla, queso y mayonesa",
+            "image": "Images/hamburguesa/doble_carne_negra.jpg",
+            "price": 10000
+          },
+          {
+            "name": "Gigante",
+            "enabled": true,
+            "description": "Hamburguesa de carne de res, lechuga, tomate, cebolla, queso y mayonesa",
+            "image": "Images/hamburguesa/gigante.jpg",
+            "price": 10000
+          },
+          {
+            "name": "Max",
+            "enabled": true,
+            "description": "Hamburguesa de carne de res, lechuga, tomate, cebolla, queso y mayonesa",
+            "image": "Images/hamburguesa/max.jpg",
+            "price": 10000
+          },
+          {
+            "name": "Mexicana",
+            "enabled": true,
+            "description": "Hamburguesa de carne de res, lechuga, tomate, cebolla, queso y mayonesa",
+            "image": "Images/hamburguesa/mexicana.jpg",
+            "price": 10000
+          },
+          {
+            "name": "Mexicana Negra",
+            "enabled": true,
+            "description": "Hamburguesa de carne de res, lechuga, tomate, cebolla, queso y mayonesa",
+            "image": "Images/hamburguesa/mexicana_negra.jpg"
+          },
+          {
+            "name": "Pepinillos",
+            "enabled": true,
+            "description": "Hamburguesa de carne de res, lechuga, tomate, cebolla, queso y mayonesa",
+            "image": "Images/hamburguesa/pepinillos.jpg"
+          },
+          {
+            "name": "Pepinillos Negra",
+            "enabled": true,
+            "description": "Hamburguesa de carne de res, lechuga, tomate, cebolla, queso y mayonesa",
+            "image": "Images/hamburguesa/pepinillos_negra.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Pizzas",
+        "enabled": true,
+        "description": "Pizza de jamon y queso",
+        "image": "Images/LogoTransparente.png",
+        "items": [
+          {
+            "firstName": "uyt",
+            "lastName": "Sharmjhfgja"
+          },
+          {
+            "firstName": "Rsraj",
+            "lastName": "Shrerweqrewqarma"
+          },
+          {
+            "firstName": "gfg",
+            "lastName": "gfsgfdg"
+          }
+        ]
+      },
+      {
+        "name": "Bebidas",
+        "enabled": true,
+        "description": "Bebidas frias y calientes",
+        "image": "Images/LogoTransparente.png",
+        "items": [
+          {
+            "firstName": "uyt",
+            "lastName": "Sharmjhfgja"
+          },
+          {
+            "firstName": "Rsraj",
+            "lastName": "Shrerweqrewqarma"
+          },
+          {
+            "firstName": "gfg",
+            "lastName": "gfsgfdg"
+          }
+        ]
+      },
+      {
+        "name": "Otros",
+        "enabled": true,
+        "description": "Bebidas frias y calientes",
+        "image": "Images/LogoTransparente.png",
+        "items": [
+          {
+            "firstName": "uyt",
+            "lastName": "Sharmjhfgja"
+          },
+          {
+            "firstName": "Rsraj",
+            "lastName": "Shrerweqrewqarma"
+          },
+          {
+            "firstName": "gfg",
+            "lastName": "gfsgfdg"
+          }
+        ]
+      }
+    ]
+  }
