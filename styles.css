@@ -173,25 +173,28 @@ body{
     align-content: center;
 }
 
-.Products .container .item{
+.Products .item{
     background: #6e1f1f;
     margin: 5px;
     border-radius: 10px;
     text-align: center;
-    flex: 23%;
+
     height: 450px;
-    max-width: 300px;
+    max-width: auto;
+    flex: 25%;
 }
 
-@media (max-width: 900px){
+@media (max-width: 600px){
     .Products .item{
-        flex: 30%;
+        max-width: auto;
+        flex: 28%;
     }
 }
 
-@media (max-width:500px){
+@media (max-width:450px){
     .Products .item{
         flex: 100%;
+        max-width: 100%;
     }
 }
 
@@ -298,7 +301,6 @@ height: 200px;
     background: #e6e2dd;
     max-width: 1000px;
     border-radius: 15px;
-    flex: 30%;
     align-items: center;
     align-content: center;
     margin: 15px auto;
@@ -310,7 +312,6 @@ height: 200px;
 .container{
     max-width: 1000px;
     border-radius: 15px;
-    flex: 30%;
     align-items: center;
     align-content: center;
     margin: auto;
