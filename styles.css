@@ -354,6 +354,7 @@ height: 200px;
 
 #Empty{
     background: #e6e2dd;
+    max-width: 1000px;
     border-radius: 10px;
     margin: 15px auto;
     text-align: center;
